@@ -1,5 +1,5 @@
 #pragma once
-class rect{
+class Rect{
 public:
     int left;
     int right;

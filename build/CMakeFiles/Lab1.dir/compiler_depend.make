@@ -125,18 +125,11 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -174,8 +167,6 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -218,8 +209,6 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -267,21 +256,9 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
 
@@ -415,12 +392,6 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/string:
@@ -473,8 +444,6 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 
 /usr/include/c++/13/cstdlib:
 
-/usr/include/x86_64-linux-gnu/bits/select-decl.h:
-
 /usr/include/c++/13/debug/assertions.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
@@ -498,8 +467,6 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 /usr/include/c++/13/ext/type_traits.h:
 
 /usr/include/c++/13/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /usr/include/c++/13/initializer_list:
 
@@ -551,8 +518,6 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
@@ -589,4 +554,12 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
