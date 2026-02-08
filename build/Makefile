@@ -153,6 +153,30 @@ lab1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/lab1.cpp.s
 .PHONY : lab1.cpp.s
 
+rect.o: rect.cpp.o
+.PHONY : rect.o
+
+# target to build an object file
+rect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rect.cpp.o
+.PHONY : rect.cpp.o
+
+rect.i: rect.cpp.i
+.PHONY : rect.i
+
+# target to preprocess a source file
+rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rect.cpp.i
+.PHONY : rect.cpp.i
+
+rect.s: rect.cpp.s
+.PHONY : rect.s
+
+# target to generate assembly for a file
+rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rect.cpp.s
+.PHONY : rect.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... lab1.o"
 	@echo "... lab1.i"
 	@echo "... lab1.s"
+	@echo "... rect.o"
+	@echo "... rect.i"
+	@echo "... rect.s"
 .PHONY : help
 
 

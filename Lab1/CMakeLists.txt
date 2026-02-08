@@ -9,4 +9,5 @@ add_compile_options(-Wall -Wextra)
 
 add_executable(Lab1
     lab1.cpp
+    rect.cpp
 )

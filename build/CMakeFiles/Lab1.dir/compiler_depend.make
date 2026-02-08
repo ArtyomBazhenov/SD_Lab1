@@ -189,6 +189,12 @@ CMakeFiles/Lab1.dir/lab1.cpp.o: /home/artyom/CDprojects/Lab1/lab1.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/Lab1.dir/rect.cpp.o: /home/artyom/CDprojects/Lab1/rect.cpp \
+  /home/artyom/CDprojects/Lab1/rect.hpp \
+  /usr/include/stdc-predef.h
+
+
+/home/artyom/CDprojects/Lab1/rect.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
