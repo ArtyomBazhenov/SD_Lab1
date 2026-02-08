@@ -1,0 +1,3 @@
+/home/artyom/CDprojects/build/CMakeFiles/Lab1.dir
+/home/artyom/CDprojects/build/CMakeFiles/edit_cache.dir
+/home/artyom/CDprojects/build/CMakeFiles/rebuild_cache.dir
