@@ -44,8 +44,13 @@
 
 #include <iostream>
 #include "rect.hpp"
+using namespace std;
 int main()
 {
+    int c=0;
+    int a=1;
+    int sum=a+c;
+    cout<<a<<c<<endl;
     /**
      * Задание 1. Классы. Объявление класса, создание экземпляров класса. Явные
      * и неявные конструкторы и деструкторы. Методы класса и их вызов.

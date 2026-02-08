@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "WSL GDB Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            // Укажи здесь путь до своего файла в папке build
+            "program": "${workspaceFolder}/build/Lab1", 
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake Build",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
