@@ -1,2 +1,9 @@
 #pragma once
-class rect{};
+class rect{
+public:
+    int left;
+    int right;
+    int top;
+    int bottom;
+
+};
